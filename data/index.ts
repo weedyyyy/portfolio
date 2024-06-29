@@ -70,6 +70,14 @@ export const gridItems = [
 
 export const projects = [
 	{
+		id: 0,
+		title: "Events Platform MERN",
+		des: "developed using Full Stack Next 14 MERN Events App with Stripe, Typescript, Tailwind",
+		img: "/events.png",
+		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+		link: "https://constantine-events.vercel.app/",
+	},
+	{
 		id: 1,
 		title: "Brainwave - Modern UI/UX website",
 		des: "developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles,seamless animations",
