@@ -90,7 +90,7 @@ export const projects = [
 		title: "Youtube Clone",
 		des: "Modern YouTube Clone Application in React JS with Material UI 5",
 		img: "/youtubeclone.png",
-		iconLists: ["/re.svg", "/s.svg", "/three.svg", "/c.svg"],
+		iconLists: ["/re.svg", "/s.svg", "/three.svg"],
 		link: "https://famous-cucurucho-79fbf0.netlify.app/",
 	},
 	{
@@ -100,6 +100,22 @@ export const projects = [
 		img: "/p4.svg",
 		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
 		link: "https://iphone-3d-clone.vercel.app/",
+	},
+	{
+		id: 5,
+		title: "spotify clone",
+		des: "developed using NextJs and Tailwind CSS, clerk for auth and convex for DB",
+		img: "/spotify.png",
+		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+		link: "https://spotify-clone-blue-tau.vercel.app/",
+	},
+	{
+		id: 6,
+		title: "Live Messaging app",
+		des: "developed using NextJs and Tailwind CSS, clerk for auth and convex for DB",
+		img: "/msgapp.png",
+		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+		link: "https://msg-app-beta.vercel.app/",
 	},
 ];
 
