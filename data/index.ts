@@ -111,7 +111,7 @@ export const projects = [
 	},
 	{
 		id: 5,
-		title: "spotify clone",
+		title: "Spotify clone",
 		des: "developed using NextJs and Tailwind CSS, clerk for auth and convex for DB",
 		img: "/spotify.png",
 		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
@@ -198,11 +198,12 @@ export const workExperience = [
 	},
 	{
 		id: 2,
-		title: "Web Scrapingt",
-		desc: "Created a database of potential clients by web scraping relevant websites, contributing to enhanced marketing strategies.",
+		title: "AI Implementation",
+		desc: "Created using Python and TensorFlow, utilizing a Convolutional Neural Network Model to classify weather in images.",
 		className: "md:col-span-2",
 		thumbnail: "/exp2.svg", // Suggestion for a new icon
 	},
+
 	{
 		id: 3, // Assuming this is the second entry
 		title: "Information Technology",
