@@ -125,6 +125,14 @@ export const projects = [
 		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
 		link: "https://msg-app-beta.vercel.app/",
 	},
+	{
+		id: 7,
+		title: "Elite classroom",
+		des: "Next.js with Gemini AI, MULTI tenant and multi role",
+		img: "/elite-classroom.jpeg",
+		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+		link: "https://pfetestingfirstdeply-6eudnwh3h-chihab-bouzars-projects.vercel.app/",
+	},
 ];
 
 export const testimonials = [
