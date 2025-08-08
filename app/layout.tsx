@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import DarkVeil from "@/components/ui/DarkVeil";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,14 +28,24 @@ export default function RootLayout({
 					sizes='any'
 				/>
 			</head>
-			<body className={inter.className}>
-				<ThemeProvider
-					attribute='class'
-					defaultTheme='dark'
-					enableSystem
-					disableTransitionOnChange>
-					{children}
-				</ThemeProvider>
+			<body className={`${inter.className} relative min-h-screen`}>
+				<div className='absolute inset-0 z-0'>
+					<DarkVeil
+						speed={0.3}
+						hueShift={180}
+						noiseIntensity={0.02}
+						warpAmount={1}
+					/>
+				</div>
+				<div className='relative z-10'>
+					<ThemeProvider
+						attribute='class'
+						defaultTheme='dark'
+						enableSystem
+						disableTransitionOnChange>
+						{children}
+					</ThemeProvider>
+				</div>
 			</body>
 		</html>
 	);
